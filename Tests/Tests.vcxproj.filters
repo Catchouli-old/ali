@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{8f5d639b-585d-4e31-90da-a1ad6e09768f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{da757ef9-3a3b-4407-879b-e98fa618532a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{93174c54-6224-48eb-b73d-43c3498a3b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{30c0f9ae-8a9b-4e98-959e-26b0928f66c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\File">
+      <UniqueIdentifier>{f0d08bb0-ed84-46ad-b3d3-506d2048a949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\Http">
+      <UniqueIdentifier>{6332a702-ae7c-4c74-b796-9e656ee6b3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\Memory">
+      <UniqueIdentifier>{f540d686-3812-44d1-97a3-4511b10d1c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\Threading">
+      <UniqueIdentifier>{d1475256-89d1-4bc2-8265-6d8829a3f91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\File">
+      <UniqueIdentifier>{20315f6c-69e4-4e74-af7c-839cd4890158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\Http">
+      <UniqueIdentifier>{45d5c116-e093-4b26-b6f4-a2f2afb21584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\Memory">
+      <UniqueIdentifier>{6cad7564-61c5-4ef0-aa58-fccb369d2fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\Threading">
+      <UniqueIdentifier>{06379f88-57aa-4055-80fd-c82b1cb5d94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\Socket">
+      <UniqueIdentifier>{c22db02f-d1ba-4c79-b313-bd6b25acf574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\Socket">
+      <UniqueIdentifier>{efa483e7-2637-45c4-85a0-1b22cd266866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="stringutils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTests.cpp">
+      <Filter>Source Files\Tests\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MemTests.cpp">
+      <Filter>Source Files\Tests\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTests.cpp">
+      <Filter>Source Files\Tests\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketTests.cpp">
+      <Filter>Source Files\Tests\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpTests.cpp">
+      <Filter>Source Files\Tests\Http</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMacros.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="stringutils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTests.h">
+      <Filter>Header Files\Tests\File</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTests.h">
+      <Filter>Header Files\Tests\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTests.h">
+      <Filter>Header Files\Tests\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Fib.h">
+      <Filter>Header Files\Tests\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="MutexWaiter.h">
+      <Filter>Header Files\Tests\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketTests.h">
+      <Filter>Header Files\Tests\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpTests.h">
+      <Filter>Header Files\Tests\Http</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

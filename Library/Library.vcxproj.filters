@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\File">
+      <UniqueIdentifier>{218ce765-1d46-4f07-bc7c-d3172aac39f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File">
+      <UniqueIdentifier>{aedb1d5a-7ffc-46f0-99dd-8526feff001e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Http">
+      <UniqueIdentifier>{7c881fcf-31b8-4eec-a573-a75e326e77a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Http">
+      <UniqueIdentifier>{32c7d271-aa7c-467b-b9f9-48df0a6555cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{1f8116ed-91f5-4522-bce3-c80f765aa78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threading">
+      <UniqueIdentifier>{e1c78af7-9500-421f-b7e2-49c5bee33613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{0d8999b8-af9a-4781-a287-f79b7012504c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sockets">
+      <UniqueIdentifier>{b6f0d424-3aee-412f-88de-8fbe4d4140a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sockets">
+      <UniqueIdentifier>{d7bd2905-82ac-487b-b54e-da0b9ae169e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{8fa47276-ab26-4506-8903-3e9167abe398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threading">
+      <UniqueIdentifier>{8c57b1cd-c127-476d-a3c4-9c69887b0949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpConnection.h">
+      <Filter>Header Files\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SockInfo.h">
+      <Filter>Header Files\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SockInitException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="AddrLookupException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateSocketException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SockClosedException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenFileException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Header Files\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>Header Files\Http</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mem.win32.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="SockInfo.win32.cpp">
+      <Filter>Source Files\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="File.win32.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.win32.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.win32.cpp">
+      <Filter>Source Files\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.win32.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem.posix.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="SockInfo.posix.cpp">
+      <Filter>Source Files\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.posix.cpp">
+      <Filter>Source Files\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.posix.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.posix.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="File.posix.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpConnection.cpp">
+      <Filter>Source Files\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponse.cpp">
+      <Filter>Source Files\Http</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
