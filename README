@@ -1,5 +1,7 @@
 ali - A cross-platform Windows/POSIX OS abstraction library for file I/O, networking, memory management, threading and mutual exclusion
 
+This software is intended as a sample, rather than an actual usable library. Use at your own risk.
+
 Up to date copies of this software can be obtained from:
 
 https://github.com/Catchouli/ali
